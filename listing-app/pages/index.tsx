@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import PropertyCard from "@/components/ui/PropertyCard";
 import Pill from "@/components/ui/Pill";
+import { Property } from "@/interfaces";
 
 const filterLabels = [
   "Top Villa",
